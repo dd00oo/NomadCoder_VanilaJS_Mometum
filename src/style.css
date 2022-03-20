@@ -1,0 +1,155 @@
+:root {
+  --main-font-color: DodgerBlue;
+  --sub-font-color: aliceblue;
+  --sub2-font-color: aliceblue;
+}
+
+body { 
+    opacity: 0.9;
+    font-family: sans-serif;
+  }
+
+input {
+  border : none;
+}
+
+button{ 	
+border: none;
+outline:none;
+}
+
+  
+  #clock { 
+
+    font-size: 14vh;
+    font-weight: bold;
+    color: var(--main-font-color);
+    text-align: center;
+    /* ontline */
+    text-shadow:
+    -2px -2px 0 balck,
+    2px -2px 0 balck,
+    -2px 2px 0 balck,
+    2px 2px 0 balck;  
+
+  }
+  
+  #userPanel { 
+    color: var(--main-font-color);
+    text-align: center;
+  }
+
+  #hello {
+    font-size: 6vh;
+    font-weight: bold;
+    color: var(--main-font-color);
+    text-align: center;
+  }
+
+  #inputName{
+    caret-color: var(--main-font-color);
+    color: var(--main-font-color);
+    background-color: var(--sub-font-color); 
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 4vh;
+    height: 4vh;
+    width: 30vw;
+  }
+
+  /* name input on */
+  #inputName:focus {
+    outline: none;
+    border: 4px var(--main-font-color);
+  }
+
+#todo-form{ 
+  text-align: center;
+}
+
+#todo-input{  
+  opacity: 0.8;
+  margin-top: 1vh;
+  caret-color: var(--main-font-color);
+  color: var(--main-font-color);
+  background-color: var(--sub-font-color); 
+  font-size: 4vh;
+  height: 4vh;
+  width: 30vw;
+}  
+  
+#toDoListDiv{ 
+  text-align: right;
+}
+ 
+#toDoListHeader{ 
+  color: var(--main-font-color);
+  text-align: right;
+}
+
+
+#todo-list{ 
+  display:inline-flex;
+  flex-direction: column;
+  color: var(--main-font-color);   
+}
+
+
+
+.todoListItem{    
+  background-color: bisque;
+}
+
+.txtspan{
+  width: 180px;
+  word-break:break-all; 
+}
+
+#weather {
+  color: var(--main-font-color);
+  font-size: 1vh;
+  text-align: right;
+
+  /* ontline */
+  text-shadow:
+  -2px -2px 0 balck,
+  2px -2px 0 balck,
+  -2px 2px 0 balck,
+  2px 2px 0 balck;  
+}
+
+#weather #temp{
+  color: var(--main-font-color);
+  font-size: 18px;
+  text-align: right;
+
+  /* ontline */
+  text-shadow:
+  -2px -2px 0 balck,
+  2px -2px 0 balck,
+  -2px 2px 0 balck,
+  2px 2px 0 balck;  
+}
+
+#quote { 
+  margin-top: 40vh;
+  font-size: 3vh;
+  color: var(--sub-font-color);
+  text-align: center; 
+  opacity: 1;
+
+  /* ontline */
+  text-shadow:
+  -0.8px -0.8px 0 var(--sub2-font-color),
+  0.8px -0.8px 0 var(--sub2-font-color),
+  -0.8px 0.8px 0 var(--sub2-font-color),
+  0.8px 0.8px 0 var(---sub2-font-color);  
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#footer {
+  width: 100%; 
+}

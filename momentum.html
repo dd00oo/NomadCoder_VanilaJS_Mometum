@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>🌺Mini Momentum</title>
+    <meta charset="UTF-8" /> 
+    <link rel="stylesheet" href="src/style.css"> 
+  </head>
+
+  <body>
+
+    <div id="weather">
+        <span id="weatherIcon"></span>
+        <span id="temp"></span><br />
+        <span id="city"></span><br />
+        <span id="weatherStr"></span>
+    </div> 
+
+    <div id="userPanel"> 
+      <div id="clock"></div>
+      <h2 id="hello"></h2>
+      <input
+        required
+        id="inputName" 
+        placeholder="(●'◡'●) Press Name"
+        type="text"
+        minlength="1"
+        maxlength="10"
+      />
+    </div>
+    
+    <form id="todo-form">
+        <input required id="todo-input" type="text" placeholder="(ˉ﹃ˉ) Write ToDoList?" minlength="1" maxlength="40">
+        
+        <div id="toDoListDiv">
+            <h3 id="toDoListHeader" >ToDo List</h3><br>
+            <ul id="todo-list" ></ul>
+        </div>
+    </form>
+
+    </div>
+
+    <div id="footer"> 
+        <div id="quote"></div>
+    </div>
+
+
+    <script src="src/index.js"></script>
+    <script src="src/backgroundShuffle.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/quotes.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
