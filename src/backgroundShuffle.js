@@ -6,7 +6,7 @@ function shuffle(){
 
     console.log(`src/${ranNum}.jpg`); 
      
-    document.body.style.setProperty('background-image', `url('img/${ranNum}.jpg')`);  
+    document.body.style.setProperty('background-image', `rgba(0, 0, 0, 0.7) url('img/${ranNum}.jpg')`);  
     document.body.style.setProperty('background-size', 'cover');   
     document.body.style.setProperty('background-repeat ', 'no-repeat');  
     document.body.style.setProperty('background-blend-mode ', 'darken');    
