@@ -1,7 +1,7 @@
 :root {
-  --main-font-color: DodgerBlue;
+  --main-font-color: aliceblue;
   --sub-font-color: aliceblue;
-  --sub2-font-color: aliceblue;
+  --sub2-font-color: DodgerBlue;
 }
 
 body { 
